@@ -36,7 +36,7 @@ function funcionCargarImagenes(){
 
         if (in_array($tipoDeArchivo, $archivoExtencion) == true) {
             echo '<img class= "w3-margin" style="width:100%" src="'. $dirireccion . '/'. $archivo. '" />';
-            echo '<h3 class="w3-center w3-margin-bottom w3-text-black">'. $nombreDeLaImagen . '</h3>';
+            echo '<h3 class="w3-center  w3-margin-bottom w3-text-black">'. $nombreDeLaImagen . '</h3>';
         }
     }
 }

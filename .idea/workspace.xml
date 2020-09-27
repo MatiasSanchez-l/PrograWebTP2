@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6aa57434-40e7-4c00-8610-c0695672db79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio0/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio0/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio1/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/ejercicio1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio1/ejercicio1ScriptPhp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/ejercicio1ScriptPhp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio1/funcionesEjercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/funcionesEjercicio1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio1/imagenes/eqqwe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,8 @@
       <updated>1601138121705</updated>
       <workItem from="1601138122845" duration="15535000" />
       <workItem from="1601159710530" duration="10027000" />
-      <workItem from="1601217206559" duration="1391000" />
+      <workItem from="1601217206559" duration="4941000" />
+      <workItem from="1601222331747" duration="4431000" />
     </task>
     <servers />
   </component>
@@ -103,26 +106,26 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="292" y="128" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1601139198839" />
-    <state width="981" height="2" key="GridCell.Tab.0.bottom" timestamp="1601171915632">
+    <state width="981" height="121" key="GridCell.Tab.0.bottom" timestamp="1601222308463">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="2" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1601171915632" />
-    <state width="981" height="2" key="GridCell.Tab.0.center" timestamp="1601171915629">
+    <state width="981" height="121" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1601222308463" />
+    <state width="981" height="121" key="GridCell.Tab.0.center" timestamp="1601222308463">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="2" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1601171915629" />
-    <state width="981" height="2" key="GridCell.Tab.0.left" timestamp="1601171915629">
+    <state width="981" height="121" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1601222308463" />
+    <state width="981" height="121" key="GridCell.Tab.0.left" timestamp="1601222308463">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="2" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1601171915629" />
-    <state width="981" height="2" key="GridCell.Tab.0.right" timestamp="1601171915629">
+    <state width="981" height="121" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1601222308463" />
+    <state width="981" height="121" key="GridCell.Tab.0.right" timestamp="1601222308463">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="2" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1601171915629" />
-    <state x="346" y="287" key="NewPhpFileDialog" timestamp="1601164275352">
+    <state width="981" height="121" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1601222308463" />
+    <state x="346" y="287" key="NewPhpFileDialog" timestamp="1601221450376">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="346" y="287" key="NewPhpFileDialog/0.0.1024.728@0.0.1024.728" timestamp="1601164275352" />
+    <state x="346" y="287" key="NewPhpFileDialog/0.0.1024.728@0.0.1024.728" timestamp="1601221450376" />
     <state x="13" y="18" key="SettingsEditor" timestamp="1601160509299">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

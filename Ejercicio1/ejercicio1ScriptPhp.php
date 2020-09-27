@@ -4,7 +4,6 @@ $direccionCarpetaImagenes = "imagenes/";
 $nombreDeImagenDeseado = $_POST["nombreDeImagen"];
 
 
-
 if ($_FILES["imagenSubida"]["error"] > 0) {
     header("Location: ejercicio1.php");
     exit();
@@ -20,28 +19,13 @@ if ($_FILES["imagenSubida"]["error"] > 0) {
         $destino
     );
 
-    header("Location: ejercicio1.php");
-    exit();
-}
-/*if(isset($_POST) && array_key_exists('submitBtn',$_POST))
-{
-    $direccionImagenes = "imagenes/";
-    $nombreDeLaImagen = $_POST["nombreDeImagen"];
-
-    if ($_FILES["imagenSubida"]["error"] > 0) {
-        echo "el archivo se subio erroneamente";
+    if(isset($_POST['submitBtn1'])){
         header("Location: ejercicio1.php");
         exit();
-    } else {
-        $destino = $direccionImagenes . $_FILES["imagenSubida"]["name"];
-        move_uploaded_file(
-            $_FILES["imagenSubida"]["tmp_name"],
-            $destino
-        );
+    }else{
+        header("Location: ../Ejercicio2/ejercicio2.php");
+        exit();
     }
+
 }
-else
-{
-    //do nothing
-}*/
 ?>
