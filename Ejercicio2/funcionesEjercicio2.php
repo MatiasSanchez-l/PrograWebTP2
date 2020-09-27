@@ -32,5 +32,11 @@ function funcionCargarNombreDeImagenesEjercicio2(){
 function funcionCargarImagen(){
     $dirireccion = '../Ejercicio1/imagenes';
     $nombreDeLaImagen =$_GET["imagen"]; //agarro el GET que le pase por la URL que seria el nombre de la imagen
-    echo  "<img src='" . $dirireccion . '/' . $nombreDeLaImagen . "' width='200px'>"; //muestro la imagen
+    echo "<img class='w3-margin' src='" . $dirireccion . '/' . $nombreDeLaImagen . "' width='300px'>"; //muestro la imagen
+}
+
+function funcionCargarTituloNombreImagen(){
+    $nombreDeLaImagen =$_GET["imagen"];
+    $nombreDeImagenSinExtencion = funcionSacarExtencion($nombreDeLaImagen);
+    echo "<h2 class='w3-center'>" . $nombreDeImagenSinExtencion ."</h2>";
 }

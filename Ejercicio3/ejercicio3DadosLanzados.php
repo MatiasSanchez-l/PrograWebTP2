@@ -1,6 +1,6 @@
 <?php
 include("../Ejercicio0/header.php");
-require_once ("funcionesEjercicio2.php");
+require_once ("funcionesEjercicio3.php");
 ?>
 
 <h1 class="w3-center w3-xxxlarge">Sanchez Matias</h1>
@@ -10,8 +10,7 @@ require_once ("funcionesEjercicio2.php");
         <a href="../index.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Punto
             de partida</a>
         <a href="../Ejercicio1/ejercicio1.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Insta-gramo</a>
-        <a href="../Ejercicio3/ejercicio3.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Lanzar
-            dados</a>
+        <a href="../Ejercicio2/ejercicio2.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Insta-reciclado</a>
     </div>
     <div class="w3-half">
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Contador
@@ -21,18 +20,15 @@ require_once ("funcionesEjercicio2.php");
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">La Matrix</a>
     </div>
 </div>
+<h3 class="w3-center w3-wide w3-margin ">Soluci&oacute;n Ejercicio 3: Lanzar dados</h3>
 <section class="w3-container">
     <?php
-    funcionCargarTituloNombreImagen();
+    $cantidadDados = $_GET["cantidadDados"];
+    $sumaNumeros =0;
+    $sumaNumeros = funcionLanzarDados($cantidadDados, $sumaNumeros);
+    echo "<h2 class='w3-center'>La suma de los dados es: " . $sumaNumeros ."</h2>";
     ?>
-    <div class="w3-col w3-container" style="width:30%"></div>
-    <div class="w3-col w3-container" style="width:40%">
-        <?php
-        funcionCargarImagen(); //llamo a la funcion de cargar solo la imagen
-        ?>
-    </div>
-    <div class="w3-col w3-container " style="width:30%"></div>
-
+    <button class="w3-btn w3-flat-wet-asphalt w3-margin w3-right" type="submit"><a href="ejercicio3.php">Volver a elegir cantidad de dados</a></button>
 </section>
 
 <?php
