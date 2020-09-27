@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aa57434-40e7-4c00-8610-c0695672db79" name="Default Changelist" comment="" />
+    <list default="true" id="6aa57434-40e7-4c00-8610-c0695672db79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio1/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/ejercicio1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio1/funcionesEjercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/funcionesEjercicio1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.4" />
   <component name="ProjectId" id="1i3ZECvNufsKp1ETG2enkIv2cm8" />
@@ -37,13 +46,9 @@
       <recent name="C:\xampp\htdocs\TP2\Ejercicio0" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.Test">
+  <component name="RunManager" selected="PHPUnit.Test.testSacarExtencion">
     <configuration name="Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test.testCambioDeNombreConExtencion" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testCambioDeNombreConExtencion" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="Test.testCambioDeNombreConExtencionGif" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -58,13 +63,17 @@
       <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testCambioDeNombreConExtencionPng" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="Test.testSacarExtencion" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testSacarExtencion" scope="Method" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.Test.testSacarExtencion" />
         <item itemvalue="PHPUnit.Test" />
         <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencionGif" />
         <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencionJpeg" />
         <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencionPng" />
-        <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencion" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601138121705</updated>
       <workItem from="1601138122845" duration="15535000" />
-      <workItem from="1601159710530" duration="9529000" />
+      <workItem from="1601159710530" duration="10027000" />
+      <workItem from="1601217206559" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -93,22 +103,22 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="292" y="128" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1601139198839" />
-    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1601165242644">
+    <state width="981" height="2" key="GridCell.Tab.0.bottom" timestamp="1601171915632">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
-    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1601165242644">
+    <state width="981" height="2" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1601171915632" />
+    <state width="981" height="2" key="GridCell.Tab.0.center" timestamp="1601171915629">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
-    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1601165242644">
+    <state width="981" height="2" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1601171915629" />
+    <state width="981" height="2" key="GridCell.Tab.0.left" timestamp="1601171915629">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
-    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1601165242644">
+    <state width="981" height="2" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1601171915629" />
+    <state width="981" height="2" key="GridCell.Tab.0.right" timestamp="1601171915629">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
+    <state width="981" height="2" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1601171915629" />
     <state x="346" y="287" key="NewPhpFileDialog" timestamp="1601164275352">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

@@ -32,9 +32,15 @@ function funcionCargarImagenes(){
 
     foreach ($dir_contenidos as $archivo) {
         $tipoDeArchivo = strtolower(pathinfo($archivo,PATHINFO_EXTENSION));
+        $nombreDeLaImagen =  funcionSacarExtencion($archivo);
 
         if (in_array($tipoDeArchivo, $archivoExtencion) == true) {
-            echo '<img src="'. $dirireccion . '/'. $archivo. '" />';
+            echo '<img class= "w3-margin" style="width:100%" src="'. $dirireccion . '/'. $archivo. '" />';
+            echo '<h3 class="w3-center w3-margin-bottom w3-text-black">'. $nombreDeLaImagen . '</h3>';
         }
     }
+}
+
+function funcionSacarExtencion($nombreArchivoConExtencion) {
+    return substr($nombreArchivoConExtencion, 0, strrpos($nombreArchivoConExtencion, '.'));
 }

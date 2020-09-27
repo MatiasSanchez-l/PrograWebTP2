@@ -22,9 +22,14 @@ include("funcionesEjercicio1.php");
     </div>
 </div>
 <section class="w3-container">
-    <?php
-    funcionCargarImagenes();
-    ?>
+    <div class="w3-col w3-container" style="width:30%"></div>
+    <div class="w3-col w3-container" style="width:40%">
+        <?php
+        funcionCargarImagenes();
+        ?>
+    </div>
+    <div class="w3-col w3-container " style="width:30%"></div>
+
 </section>
 <h3 class="w3-center">Soluci&oacute;n Ejercicio 1: Insta-gramo</h3>
 <section class="w3-container">

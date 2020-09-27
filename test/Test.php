@@ -27,6 +27,11 @@ class Test extends TestCase
         $this->assertEquals("archivo.gif",$respuesta);
     }
 
+    public function  testSacarExtencion(){
+        $respuesta = funcionSacarExtencion("archivo.jpeg");
+        $this->assertEquals("archivo",$respuesta);
+    }
+
     /*public function testValidarDatosArchivo(){
 
     }
