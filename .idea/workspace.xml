@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6aa57434-40e7-4c00-8610-c0695672db79" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.4" />
+  <component name="ProjectId" id="1i3ZECvNufsKp1ETG2enkIv2cm8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TP2\Ejercicio0" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.Test">
+    <configuration name="Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.testCambioDeNombreConExtencion" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testCambioDeNombreConExtencion" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.testCambioDeNombreConExtencionGif" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testCambioDeNombreConExtencionGif" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.testCambioDeNombreConExtencionJpeg" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testCambioDeNombreConExtencionJpeg" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.testCambioDeNombreConExtencionPng" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Test" file="$PROJECT_DIR$/test/Test.php" method="testCambioDeNombreConExtencionPng" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.Test" />
+        <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencionGif" />
+        <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencionJpeg" />
+        <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencionPng" />
+        <item itemvalue="PHPUnit.Test.testCambioDeNombreConExtencion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6aa57434-40e7-4c00-8610-c0695672db79" name="Default Changelist" comment="" />
+      <created>1601138121705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601138121705</updated>
+      <workItem from="1601138122845" duration="15535000" />
+      <workItem from="1601159710530" duration="9529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="102" y="16" key="#Deployment" timestamp="1601139133294">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="102" y="16" key="#Deployment/0.0.1024.728@0.0.1024.728" timestamp="1601139133294" />
+    <state x="292" y="128" key="FileChooserDialogImpl" timestamp="1601139198839">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="128" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1601139198839" />
+    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1601165242644">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
+    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1601165242644">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
+    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1601165242644">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
+    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1601165242644">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1601165242644" />
+    <state x="346" y="287" key="NewPhpFileDialog" timestamp="1601164275352">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="346" y="287" key="NewPhpFileDialog/0.0.1024.728@0.0.1024.728" timestamp="1601164275352" />
+    <state x="13" y="18" key="SettingsEditor" timestamp="1601160509299">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="13" y="18" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1601160509299" />
+    <state x="261" y="108" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1601144611344">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="261" y="108" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1024.728@0.0.1024.728" timestamp="1601144611344" />
+  </component>
+</project>
