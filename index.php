@@ -2,8 +2,6 @@
 include("Ejercicio0/header.php");
 ?>
 
-<h1 class="w3-center w3-xxxlarge">Sanchez Matias</h1>
-
 <div class="w3-bar w3-flat-wet-asphalt">
     <div class="w3-half ">
         <a href="Ejercicio1/ejercicio1.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
@@ -13,7 +11,7 @@ include("Ejercicio0/header.php");
             dados</a>
     </div>
     <div class="w3-half">
-        <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Contador
+        <a href="Ejercicio4/ejercicio4.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Contador
             visitas</a>
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
            style="width:33%">ConociendINIs</a>
@@ -28,7 +26,7 @@ include("Ejercicio0/header.php");
     <div class="w3-col w3-container " style="width:15%"></div>
 </section>
 <section>
-    <h3 class="w3-center">Soluci&oacute;n Ejercicio 0</h3>
+    <h3 class="w3-center w3-wide">Soluci&oacute;n Ejercicio 0</h3>
 </section>
 
 <?php

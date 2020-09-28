@@ -14,7 +14,7 @@ require_once ("funcionesEjercicio2.php");
             dados</a>
     </div>
     <div class="w3-half">
-        <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Contador
+        <a href="../Ejercicio4/ejercicio4.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Contador
             visitas</a>
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
            style="width:33%">ConociendINIs</a>
