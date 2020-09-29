@@ -28,7 +28,7 @@ require_once ("funcionesEjercicio2.php");
     <div class="w3-col w3-container" style="width:30%"></div>
     <div class="w3-col w3-container" style="width:40%">
         <?php
-        funcionCargarImagen(); //llamo a la funcion de cargar solo la imagen
+        funcionCargarImagen();
         ?>
     </div>
     <div class="w3-col w3-container " style="width:30%"></div>

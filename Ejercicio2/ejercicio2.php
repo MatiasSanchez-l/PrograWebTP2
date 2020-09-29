@@ -21,7 +21,7 @@ include("funcionesEjercicio2.php");
 </div>
 <section class="w3-container">
     <?php
-    funcionCargarNombreDeImagenesEjercicio2(); //llamo a la funcion cargar SOLO NOMBRE de las imagenes
+    funcionCargarNombreDeImagenesEjercicio2();
     ?>
 </section>
 <h3 class="w3-center w3-wide w3-margin ">Soluci&oacute;n Ejercicio 2: Insta-reciclado</h3>
