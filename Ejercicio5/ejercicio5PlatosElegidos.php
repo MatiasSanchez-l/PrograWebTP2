@@ -1,6 +1,6 @@
 <?php
 include("../Ejercicio0/header.php");
-require_once("funcionesEjercicio4.php");
+require_once ("funcionesEjercicio5.php");
 ?>
 <div class="w3-bar w3-flat-wet-asphalt">
     <div class="w3-half ">
@@ -12,25 +12,22 @@ require_once("funcionesEjercicio4.php");
     <div class="w3-half">
         <a href="../Ejercicio3/ejercicio3.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Lanzar
             dados</a>
-        <a href="../Ejercicio5/ejercicio5.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
-           style="width:33%">ConociendINIs</a>
+        <a href="../Ejercicio4/ejercicio4.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
+           style="width:33%">Contador visitas</a>
         <a href="../Ejercicio6/ejercicio6.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">La Matrix</a>
     </div>
 </div>
-<h3 class="w3-center w3-wide w3-margin">Soluci&oacute;n Ejercicio 4: Contador de visitas… extraterrestres</h3>
+<h3 class="w3-center w3-wide w3-margin">Ejercicio 5: ConociendINIs con el Menú no saludable</h3>
 <section>
     <?php
-      $nombreVisitante = $_GET["nombreVisitante"];
-      $nombrePlaneta = $_GET["planetaElegido"];
-      $cantidadVisitantes = 0;
-      funcionAgregarVisitante($nombreVisitante, $nombrePlaneta);
+    $entrada = isset($_GET["entrada"]);
+    $platoPrincipal = isset($_GET["platoPrincipal"]);
+    $acompaniamiento = isset($_GET["acompaniamiento"]);
+    $postre = isset($_GET["postre"]);
 
-      $cantidadVisitantes =funcionContarVisitantes($nombrePlaneta, $cantidadVisitantes);
+    $cantidadPedidos = funcionCantidadPedidos($entrada, $platoPrincipal,$acompaniamiento, $postre);
 
-      funcionMostrarVisitantes();
-
-      echo "La cantidad de visitantes que no pertenecen al planeta tierra es: " . $cantidadVisitantes . ".";
-
+    funcionMostrarPedidos($cantidadPedidos, $entrada, $platoPrincipal,$acompaniamiento, $postre);
 
     ?>
 </section>

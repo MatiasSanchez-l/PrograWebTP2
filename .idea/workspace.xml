@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aa57434-40e7-4c00-8610-c0695672db79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ejercicio6/ejercicio6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio0/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio0/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio1/ejercicio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/ejercicio1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio2/ejercicio2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio2/ejercicio2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio2/ejercicio2SoloImagen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio2/ejercicio2SoloImagen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio3/ejercicio3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio3/ejercicio3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio3/ejercicio3DadosLanzados.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio3/ejercicio3DadosLanzados.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/cantidadVisitantes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/ejercicio4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/ejercicio4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/ejercicio4ListaVisitantes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/ejercicio4ListaVisitantes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/visitantes.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejercicio0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -94,6 +98,8 @@
       <workItem from="1601222331747" duration="11168000" />
       <workItem from="1601244570642" duration="472000" />
       <workItem from="1601245052178" duration="8161000" />
+      <workItem from="1601301921250" duration="308000" />
+      <workItem from="1601322634292" duration="7828000" />
     </task>
     <servers />
   </component>
@@ -105,10 +111,14 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="102" y="16" key="#Deployment/0.0.1024.728@0.0.1024.728" timestamp="1601139133294" />
-    <state x="292" y="128" key="FileChooserDialogImpl" timestamp="1601245047772">
+    <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601323471059">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="292" y="128" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1601245047772" />
+    <state x="0" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.728@0.0.1024.728" timestamp="1601323471059" />
+    <state x="292" y="128" key="FileChooserDialogImpl" timestamp="1601326542136">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="128" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1601326542136" />
     <state width="981" height="121" key="GridCell.Tab.0.bottom" timestamp="1601222308463">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
@@ -125,10 +135,10 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state width="981" height="121" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1601222308463" />
-    <state x="346" y="287" key="NewPhpFileDialog" timestamp="1601251784514">
+    <state x="332" y="445" key="NewPhpFileDialog" timestamp="1601328691097">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="346" y="287" key="NewPhpFileDialog/0.0.1024.728@0.0.1024.728" timestamp="1601251784514" />
+    <state x="332" y="445" key="NewPhpFileDialog/0.0.1024.728@0.0.1024.728" timestamp="1601328691097" />
     <state x="13" y="18" key="SettingsEditor" timestamp="1601160509299">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

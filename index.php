@@ -13,9 +13,9 @@ include("Ejercicio0/header.php");
     <div class="w3-half">
         <a href="Ejercicio4/ejercicio4.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">Contador
             visitas</a>
-        <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
+        <a href="Ejercicio5/ejercicio5.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
            style="width:33%">ConociendINIs</a>
-        <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">La Matrix</a>
+        <a href="Ejercicio6/ejercicio6.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">La Matrix</a>
     </div>
 </div>
 <section class="w3-row w3-margin">

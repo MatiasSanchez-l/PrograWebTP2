@@ -14,7 +14,7 @@ include("../Ejercicio0/header.php");
             visitas</a>
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray"
            style="width:33%">ConociendINIs</a>
-        <a href="#" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">La Matrix</a>
+        <a href="../Ejercicio6/ejercicio6.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">La Matrix</a>
     </div>
 </div>
 <h3 class="w3-center w3-wide w3-margin ">Soluci&oacute;n Ejercicio 3: Lanzar dados</h3>
