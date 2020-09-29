@@ -1,5 +1,6 @@
 <?php
 include("../Ejercicio0/header.php");
+require_once("funcionesEjercicio6.php");
 ?>
 <div class="w3-bar w3-flat-wet-asphalt">
     <div class="w3-half ">
@@ -16,17 +17,37 @@ include("../Ejercicio0/header.php");
         <a href="../Ejercicio5/ejercicio5.php" class="w3-bar-item w3-button w3-mobile w3-third w3-hover-blue-gray" style="width:33%">ConociendINIs</a>
     </div>
 </div>
-<h3 class="w3-center w3-wide w3-margin">Ejercicio 6: La Matrix… digo, Matriz</h3>
+<h3 class="w3-center w3-wide w3-margin">Soluci&oacute;n Ejercicio 6: La Matrix… digo, Matriz</h3>
 <section>
-    <div class="w3-container w3-flat-wet-asphalt">
-        <div class="w3-col w3-margin" style="width:50px"><i class="w3-xlarge fab fa-buromobelexperte"></i></div>
-        <h5>Matriz</h5>
+    <?php
+    $dimensionMatriz = $_POST["dimensionMatriz"];
+
+    $miMatriz = funcionCrearUnArray2D($dimensionMatriz);
+    ?>
+    <div class="w3-container w3-center">
+        <p class="w3-xxlarge"><?php
+            funcionMostrarMatriz($dimensionMatriz, $miMatriz);
+            ?></p>
     </div>
-    <form class="w3-container w3-margin" method="POST" ENCTYPE="multipart/form-data" action="ejercicio6ConMatriz.php">
-        <label class="w3-margin-top w3-margin-left"><b>Indique la dimensi&oacute;n de la matriz:</b></label>
-        <input class="w3-input w3-border w3-margin" type="number" name="dimensionMatriz">
-        <button class="w3-btn w3-flat-wet-asphalt w3-margin w3-right" type="submit" name = "">Enviar</button>
-    </form>
+    <div class="w3-container">
+        <p class="w3-xlarge w3-center">La diagonal principal tiene:
+            <?php
+            echo funcionMostrarDiagonalPrincipal($dimensionMatriz, $miMatriz);
+            ?></p>
+    </div>
+    <div class="w3-container">
+        <p class="w3-xlarge w3-center">La diagonal secundaria tiene:
+            <?php
+            echo funcionMostrarDiagonalSecundaria($dimensionMatriz, $miMatriz);
+            ?></p>
+    </div>
+    <div class="w3-container">
+        <p class="w3-xlarge w3-center">La suma de la matriz es:
+            <?php
+            $sumaMatriz = funcionSumarMatriz($dimensionMatriz, $miMatriz);
+            echo $sumaMatriz;
+            ?></p>
+    </div>
 </section>
 <?php
 include("../Ejercicio0/footer.php");
